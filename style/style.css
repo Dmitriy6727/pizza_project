@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%;
-    background-color: brown;
+    background-color: #af2024;
 }
 header{
     background-color: #af2024;
@@ -17,4 +17,19 @@ header{
 .logo{
     max-width: 960px;
     margin: auto;
+    margin-bottom: 20px;
+}
+.container{
+    max-width: 710px;
+    margin: auto;
+    padding-bottom: 125px;
+    background-color: #fff;
+}
+.container_head{
+    padding: 26px 16px;
+    background-color: #af2024;
+}
+.container_head h1{
+    color: #fff;
+    font-size: 17px;
 }
