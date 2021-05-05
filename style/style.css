@@ -40,11 +40,19 @@ header{
 }
 .video_block h2{
     margin-top: 29px;
-    font-size: 9px;
+    font-size: 15px;
     color: #98161b;
 }
+h2::after{
+    display: block;
+    content: ".........";
+    width: 0px;
+    background-color: #98161b;
+    height: 3px;
+    margin-bottom: 20px;
+}
 .video_block p{
-    font-size: 9px;
+    font-size: 13px;
     color: #98161b;
     line-height: 22px;
 }
