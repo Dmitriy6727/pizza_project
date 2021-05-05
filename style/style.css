@@ -12,12 +12,13 @@ body{
 header{
     background-color: #af2024;
     height: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     display: block;
 }
 .logo{
     max-width: 960px;
     margin: auto;
+    margin-bottom:-40px;
 }
 ul{
     position: fixed;
@@ -31,6 +32,11 @@ ul{
 }
 .twitter{
     background-color: #98161b;
+}
+.fab{
+    color: #fff;
+    height: 30px;
+    margin: 20px;
 }
 .container{
     max-width: 710px;
