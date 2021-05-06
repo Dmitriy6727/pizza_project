@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Arvo';
+    src: url('../fonts/Arvo-Bold.woff') format('woff2'),
+        url('../fonts/Arvo-Bold.woff2') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -54,6 +63,7 @@ ul{
 .container_head h1{
     color: #fff;
     font-size: 17px;
+    font-family: 'Arvo';
 }
 .video_block{
     max-width: 567px;
@@ -64,6 +74,7 @@ ul{
     margin-top: 29px;
     font-size: 15px;
     color: #98161b;
+    font-family: 'Arvo';
 }
 h2::after{
     display: block;
@@ -77,6 +88,7 @@ h2::after{
     font-size: 13px;
     color: #98161b;
     line-height: 22px;
+    font-family: 'Arvo';
 }
 span{
     color: #7d7d7d;
